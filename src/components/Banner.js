@@ -4,7 +4,7 @@ import requests from "../api/requests"
 export default function Banner() {
   
 
-const[movie, setMovie] = useState([])
+    const[movie, setMovie] = useState([])
 
   useEffect(() => {
     fetchData()
